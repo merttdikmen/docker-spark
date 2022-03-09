@@ -1,0 +1,6 @@
+Create bridge network spark-net
+
+Run on master: docker run --network spark-net -p 8080:8080 my_spark_master
+
+Run on worker: docker run --network spark-net --env SPARK_MASTER=spark://<master-container>:7077 my_spark_worker
+
