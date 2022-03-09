@@ -1,4 +1,4 @@
-FROM my_spark_base:latest
+FROM spark-base:latest
 
 COPY start-master.sh /
 

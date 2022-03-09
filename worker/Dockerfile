@@ -1,4 +1,4 @@
-FROM my_spark_base
+FROM spark-base:latest
 
 COPY start-worker.sh /
 
